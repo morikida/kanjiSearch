@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>漢字検索</title>
+    <link rel="stylesheet" href="css/kanji.css">
+    <link rel="stylesheet" href="css/reset.css">
+</head>
+<body>
+
+
+
+<!-- タイトル -->
+<p class="header">みんなの日本語 漢字練習帳 漢字検索</p>
+
+
+<!-- 入力部分 -->
+<div class="text">
+    <input type="text" id="kanji" placeholder="漢字を入力">
+    <p class="text-attention">※最大3文字まで検索可能</p>
+</div>
+
+<!-- ボタン部分 -->
+<div class="btn-wrapper">
+    <a href="#" class="search" id="btn">検索</a>
+    <a href="#" class="clear" id="btn">リセット</a>
+</div>
+
+<!--検索結果  -->
+<div class="answer" >
+    <p  class="as1" id="as" style="display: none">1文字目：<span class="answer1"></span></p>
+    <p  class="as2" id="as" style="display: none">1文字目：<span class="answer2"></span></p>
+    <p  class="as3" id="as" style="display: none">1文字目：<span class="answer3"></span></p>
+    <p  class="as4" id="as" style="display: none">1文字目：<span class="answer4"></span></p>
+    <p  class="as5" id="as" style="display: none">1文字目：<span class="answer5"></span></p>
+    <p  class="as6" id="as" style="display: none">1文字目：<span class="answer6"></span></p>
+    <p  class="as7" id="as" style="display: none">1文字目：<span class="answer7"></span></p>
+    <p  class="as8" id="as" style="display: none">1文字目：<span class="answer8"></span></p>
+    <p  class="as9" id="as" style="display: none">1文字目：<span class="answer9"></span></p>
+    <p  class="as10" id="as" style="display: none">1文字目：<span class="answer10"></span></p>
+    <p  class="as11" id="as" style="display: none">1文字目：<span class="answer11"></span></p>
+    <p  class="as12" id="as" style="display: none">1文字目：<span class="answer12"></span></p>
+    <p  class="as13" id="as" style="display: none">1文字目：<span class="answer13"></span></p>
+    <p  class="as14" id="as" style="display: none">1文字目：<span class="answer14"></span></p>
+    <p  class="as15" id="as" style="display: none">1文字目：<span class="answer15"></span></p>
+    <p  class="as16" id="as" style="display: none">1文字目：<span class="answer16"></span></p>
+    <p  class="as17" id="as" style="display: none">1文字目：<span class="answer17"></span></p>
+    <p  class="as18" id="as" style="display: none">1文字目：<span class="answer18"></span></p>
+    <p  class="as19" id="as" style="display: none">1文字目：<span class="answer19"></span></p>
+    <p  class="as20" id="as" style="display: none">1文字目：<span class="answer20"></span></p>
+    <p  class="as21" id="as" style="display: none">1文字目：<span class="answer21"></span></p>
+    <p  class="as22" id="as" style="display: none">1文字目：<span class="answer22"></span></p>
+    <p  class="as23" id="as" style="display: none">1文字目：<span class="answer23"></span></p>
+    <p  class="as24" id="as" style="display: none">1文字目：<span class="answer24"></span></p>
+    <p  class="as25" id="as" style="display: none">1文字目：<span class="answer25"></span></p>
+    <p  class="as26" id="as" style="display: none">1文字目：<span class="answer26"></span></p>
+    <p  class="as27" id="as" style="display: none">2文字目：<span class="answer27"></span></p>
+    <p  class="as28" id="as" style="display: none">2文字目：<span class="answer28"></span></p>
+    <p  class="as29" id="as" style="display: none">2文字目：<span class="answer29"></span></p>
+    <p  class="as30" id="as" style="display: none">2文字目：<span class="answer30"></span></p>
+    <p  class="as31" id="as" style="display: none">2文字目：<span class="answer31"></span></p>
+    <p  class="as32" id="as" style="display: none">2文字目：<span class="answer32"></span></p>
+    <p  class="as33" id="as" style="display: none">2文字目：<span class="answer33"></span></p>
+    <p  class="as34" id="as" style="display: none">2文字目：<span class="answer34"></span></p>
+    <p  class="as35" id="as" style="display: none">2文字目：<span class="answer35"></span></p>
+    <p  class="as36" id="as" style="display: none">2文字目：<span class="answer36"></span></p>
+    <p  class="as37" id="as" style="display: none">2文字目：<span class="answer37"></span></p>
+    <p  class="as38" id="as" style="display: none">2文字目：<span class="answer38"></span></p>
+    <p  class="as39" id="as" style="display: none">2文字目：<span class="answer39"></span></p>
+    <p  class="as40" id="as" style="display: none">2文字目：<span class="answer40"></span></p>
+    <p  class="as41" id="as" style="display: none">2文字目：<span class="answer41"></span></p>
+    <p  class="as42" id="as" style="display: none">2文字目：<span class="answer42"></span></p>
+    <p  class="as43" id="as" style="display: none">2文字目：<span class="answer43"></span></p>
+    <p  class="as44" id="as" style="display: none">2文字目：<span class="answer44"></span></p>
+    <p  class="as45" id="as" style="display: none">2文字目：<span class="answer45"></span></p>
+    <p  class="as46" id="as" style="display: none">2文字目：<span class="answer46"></span></p>
+    <p  class="as47" id="as" style="display: none">2文字目：<span class="answer47"></span></p>
+    <p  class="as48" id="as" style="display: none">2文字目：<span class="answer48"></span></p>
+    <p  class="as49" id="as" style="display: none">2文字目：<span class="answer49"></span></p>
+    <p  class="as50" id="as" style="display: none">2文字目：<span class="answer50"></span></p>
+    <p  class="as51" id="as" style="display: none">2文字目：<span class="answer51"></span></p>
+    <p  class="as52" id="as" style="display: none">2文字目：<span class="answer52"></span></p>
+    <p  class="as53" id="as" style="display: none">3文字目：<span class="answer53"></span></p>
+    <p  class="as54" id="as" style="display: none">3文字目：<span class="answer54"></span></p>
+    <p  class="as55" id="as" style="display: none">3文字目：<span class="answer55"></span></p>
+    <p  class="as56" id="as" style="display: none">3文字目：<span class="answer56"></span></p>
+    <p  class="as57" id="as" style="display: none">3文字目：<span class="answer57"></span></p>
+    <p  class="as58" id="as" style="display: none">3文字目：<span class="answer58"></span></p>
+    <p  class="as59" id="as" style="display: none">3文字目：<span class="answer59"></span></p>
+    <p  class="as60" id="as" style="display: none">3文字目：<span class="answer60"></span></p>
+    <p  class="as61" id="as" style="display: none">3文字目：<span class="answer61"></span></p>
+    <p  class="as62" id="as" style="display: none">3文字目：<span class="answer62"></span></p>
+    <p  class="as63" id="as" style="display: none">3文字目：<span class="answer63"></span></p>
+    <p  class="as64" id="as" style="display: none">3文字目：<span class="answer64"></span></p>
+    <p  class="as65" id="as" style="display: none">3文字目：<span class="answer65"></span></p>
+    <p  class="as66" id="as" style="display: none">3文字目：<span class="answer66"></span></p>
+    <p  class="as67" id="as" style="display: none">3文字目：<span class="answer67"></span></p>
+    <p  class="as68" id="as" style="display: none">3文字目：<span class="answer68"></span></p>
+    <p  class="as69" id="as" style="display: none">3文字目：<span class="answer69"></span></p>
+    <p  class="as70" id="as" style="display: none">3文字目：<span class="answer70"></span></p>
+    <p  class="as71" id="as" style="display: none">3文字目：<span class="answer71"></span></p>
+    <p  class="as72" id="as" style="display: none">3文字目：<span class="answer72"></span></p>
+    <p  class="as73" id="as" style="display: none">3文字目：<span class="answer73"></span></p>
+    <p  class="as74" id="as" style="display: none">3文字目：<span class="answer74"></span></p>
+    <p  class="as75" id="as" style="display: none">3文字目：<span class="answer75"></span></p>
+    <p  class="as76" id="as" style="display: none">3文字目：<span class="answer76"></span></p>
+    <p  class="as77" id="as" style="display: none">3文字目：<span class="answer77"></span></p>
+    <p  class="as78" id="as" style="display: none">3文字目：<span class="answer78"></span></p>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="js/kanji.js"></script>
+</body>
+</html>
