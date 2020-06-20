@@ -1,6 +1,6 @@
 .header {
 
-    margin-top: 50px;
+    margin-top: 30px;
     margin-left: 30px;
     font-size: 30px;
     font-weight: bold;
@@ -58,5 +58,15 @@
     height: 30px;
     background: ivory;
     border-bottom: solid 3px #c58668;
+
+}
+
+.useexplain {
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.infolist {
+    margin-left: 40px;
 
 }
